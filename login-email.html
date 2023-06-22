@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ĐĂNG NHẬP EMAIL</title>
+    <link rel="icon" href="design/themes/bright_theme/media/tatmart/images/home/fav.png" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="css/login-password.css">
+</head>
+
+<body class="login-password-page">
+<!--Main-->
+<div class="main-mobile">
+    <div class="container">
+        <a class="back" onclick="history.back()">
+            <img src="design/themes/bright_theme/media/tatmart/images/login-password/back.svg" alt="quay lại trang trước"/>
+        </a>
+        <div class="head">
+            <h1>
+                <span class="title">Đăng nhập bằng email</span>
+                <span class="code">Nhập email và mật khẩu tài khoản</span>
+            </h1>
+        </div>
+        <form class="form" action="account.html" method="post">
+            <div class="form-input">
+                <input title="email" class="input" type="text" name="email" placeholder="Email">
+            </div>
+            <div class="form-input">
+                <input title="password" class="input" type="password" name="password" placeholder="Mật khẩu">
+                <div class="img">
+                    <img src="design/themes/bright_theme/media/tatmart/images/login-password/icon.svg" alt="enter password">
+                </div>
+            </div>
+            <button title="login" class="submit" type="submit">Đăng nhập</button>
+        </form>
+        <div class="social">
+        </div>
+        <div class="register">
+            <a class="forgot" href="forgot-password.html#email">Quên mật khẩu?</a>
+            <p>
+                Chưa có tài khoản?
+                <a href="login-phone.html">Tạo tài khoản?</a>
+            </p>
+        </div>
+    </div>
+</div>
+<!--Jquery-->
+<script src="js/login.js"></script>
+</body>
+
+</html>
